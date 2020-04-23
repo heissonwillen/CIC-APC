@@ -1,0 +1,29 @@
+/*
+Aluno:			Heisson Willen Esteves Lima
+Matrícula		190014181
+Disciplina:		Algoritmos e Programação de Computadores
+Data:			***data
+
+Descrição:		***descrição
+*/
+
+#include <stdio.h>
+
+int main(){
+
+	return 0;
+}
+
+
+'''
+Aluno:			Heisson Willen Esteves Lima
+Matrícula		190014181
+Disciplina:		Algoritmos e Programação de Computadores
+Data:			***data
+
+Descrição:		***descrição
+'''
+
+sinal: 0								positivo
+exp: 10000010							3
+mantissa: 00110000000000000000000		100.1

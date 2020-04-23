@@ -1,0 +1,1 @@
+o identificador da peça é o indice da peça
