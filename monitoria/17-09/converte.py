@@ -3,3 +3,5 @@ def converte(fahrenheit):
     return f'{celsius:.1f}'
 
 print(converte(-1.0))
+print(converte(0))
+print(converte(32.0))
