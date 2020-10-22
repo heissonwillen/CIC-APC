@@ -139,3 +139,5 @@ cython_debug/
 
 # Trabalhos da disciplina
 trabalhos/
+questionarios/
+questionario/
