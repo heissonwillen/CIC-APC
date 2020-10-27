@@ -7,6 +7,6 @@ Por exemplo soma_dos_quadrados([2, 3, 4]) deve retorna 4+9+16 que é 29.
 '''
 
 def soma_de_quadrados(numeros):
-    return sum(x**2 for x in numeros)
+    return sum([x**2 for x in numeros])
 
 print(soma_de_quadrados([2, 3, 4]))
