@@ -2,7 +2,8 @@ n = int(input())
 
 for _ in range(n):
     lista = input().split()
-    lista.sort(key=lambda item: len(item), reverse=True)
+    # lista.sort(key=lambda item: len(item), reverse=True)
+    lista.sort(key=len, reverse=True)
 
     for i in range(len(lista)):
         print(lista[i], end='')

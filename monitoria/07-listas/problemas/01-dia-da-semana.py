@@ -1,5 +1,6 @@
 '''
-Dado um numero de 1 a 7 (esses inclusos), mostrar, na saída padrão o dia da semana correspondente a esse número.
+Dado um numero de 1 a 7 (esses inclusos), mostrar, na saída padrão o dia da
+semana correspondente a esse número.
 
 Exemplos:
 1
