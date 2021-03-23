@@ -1,19 +1,15 @@
-'''
-Leia 4 valores inteiros A, B, C e D. A seguir, se B for maior do que C  escrever a mensagem "Valores aceitos", senão escrever "Valores nao aceitos".
-'''
+def quantos_semestres(semestre_atual, ano_atual, matricula):
+    ano_entrada = int(matricula[0] + matricula[1])
+    sem_entrada = int(matricula[3])
 
-A, B, C, D = list(map(int, input().split()))
-print(A)
-'''
-map(<funcao>, <iteravel>)
+    ano_atual -= 2000
 
-listas -> []
-tuplas -> ()
-sets   -> []
+    print(ano_entrada)
+    print(ano_atual)
 
->>>1 2 3 4
->>>'1 2 3 4'
->>>['1', '2', '3', '4']
->>>[1, 2, 3, 4]
->>> A=1, B=2, C=3, D=3
-'''
+    q_sem = (ano_atual - ano_entrada) * 2 + semestre_atual - sem_entrada
+
+    print(q_sem)
+
+
+quantos_semestres(1, 2020, '190014181')
