@@ -10,6 +10,5 @@ def mdc(a, b):
     return a if b == 0 else mdc(b, a % b)
 
 
-a, b = [int(x) for x in input().split()]
-
+a, b = map(int, input().split())
 print(mdc(a, b))

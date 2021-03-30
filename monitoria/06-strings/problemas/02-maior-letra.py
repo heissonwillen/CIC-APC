@@ -18,6 +18,7 @@ Exemplos:
 3. Dado S = “WeTestCodErs", sua função deve retornar “T”. As letras que ocorrem tanto em minúsculas quanto em maiúsculas são: “E”, “T” (T é alfabeticamente maior)
 """
 
+
 def solution(s):
     s = list(s)
     s.sort(reverse=True)
