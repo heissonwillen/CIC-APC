@@ -1,20 +1,19 @@
-def mostra(n, invertido=False):
-    n = str(n)
+'''
+3
+1 5
+10 13
+98 101
+'''
 
-    if not invertido:
-        print(n, end='')
-    else:
-        print(n[::-1], end='')
 
 n = int(input())
 
 for i in range(n):
     a, b = [int(j) for j in input().split()]
 
-    for k in range(a, b+1):
-        mostra(k)
+    k = ''
 
-    for k in range(b, a-1, -1):
-        mostra(k, invertido=True)
+    for i in range(a, b+1):
+        k += str(i)
 
-    print()
+    print(k + k[::-1])

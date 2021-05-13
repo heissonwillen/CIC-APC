@@ -10,7 +10,7 @@ def nested_sum(lista):
     soma = 0
     for sub_lista in lista:
         soma += sum(sub_lista)
-    return sum(nova_lista)
+    return sum(sub_lista)
 
     def nested_sum(lista):
         soma = 0
@@ -19,5 +19,5 @@ def nested_sum(lista):
         return soma
 
 
-t = [[1, 2], [3], [4, 5, 6]]
-print(nested_sum(t))
+# t = [[1, 2], [3], [4, 5, 6]]
+# print(nested_sum(t))
